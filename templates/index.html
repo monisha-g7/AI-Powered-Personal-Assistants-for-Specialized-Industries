@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Industry Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>AI-Powered Industry Assistant</h2>
+
+        <form id="textForm">
+            <label for="domain">Choose Domain:</label>
+            <select id="domain">
+                <option value="healthcare">Healthcare</option>
+                <option value="legal">Legal</option>
+            </select><br><br>
+
+            <label for="question">Ask a Question:</label><br>
+            <input type="text" id="question" placeholder="Type your question here..." required><br>
+            <button type="submit">Ask</button>
+        </form>
+
+        <div class="response" id="textResponse"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
